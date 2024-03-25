@@ -1,5 +1,5 @@
 # HomeMatch
-final project for UDACITY Building GenAI solutions 4 weeks course
+final project for [UDACITY Building GenAI solutions](https://www.udacity.com/course/intro-to-building-generative-AI-solutions--cd13267) 4 weeks course
 
 # PROJECT DESCRIPTION
 The project aims at building a real-estate chatbot able to identify the best properties matching customer preferences.
