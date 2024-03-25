@@ -6,10 +6,14 @@ The project aims at building a real-estate chatbot able to identify the best pro
 The project uses OpenAI, langchain and vectorDB.
 
 # PROJECT STEPS
-1 - Prepare synthetic property listings\n
-2 - Generate property listings embeddings and store in a vector database\n
+1 - Prepare synthetic property listings
+
+2 - Generate property listings embeddings and store in a vector database
+
 3 - Identify customer preferences using LLM and pydantic schema
+
 4 - Extract top-k best matches from vector database using distance threshold
+
 5 - Augment the property descriptions and personalize the final ouput to the buyer's preferences without altering factual properties' characteristics
 
 # PROJECT SPECIFICITIES
