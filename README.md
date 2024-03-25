@@ -19,7 +19,8 @@ The project uses OpenAI, langchain and vectorDB.
 # PROJECT SPECIFICITIES
 - Step 3 leverages pydantic schemas to extract customer preferences from text input and use for metadata filtering
 - Semantic search: Step 4 vectorSearch combines **semantic search** and **metadata filtering** to increase matching capabilities and extend performance
-- The project concludes with an end-to-end workflow from customer input to the presentation of the top augmented matches in natural language. The workflow uses tools and function calling to generate the final output.
+- Automatic capture of the buyer's preferences using chatmodel until all key parameters are populated. This is managed using tagging function and pydantic table
+- The project concludes with an end-to-end workflow from customer input to the presentation of the top augmented matches in natural language. The workflow uses tagging, tools and function calling to generate the final output.
 
 # PROJECT IMPLEMENTATION
 - clone the repo and install the dependencies in a virtual environment. The required libraries are located in the requirements.txt file
@@ -28,3 +29,4 @@ The project uses OpenAI, langchain and vectorDB.
 - You can skip step 1 and step 2 in the notebook and just load the synthetic property listings saved in the folder data
 - The folder data contains the vectordb with the associated embeddings
 - Query the database modifying the customer input
+- execute the end-to-end automated workflow at the very end of the notebook
